@@ -17,9 +17,8 @@
 // reset gameboard and have AI choose new tile
 
 
-
-let boardSize = 9;
 let win = false;
+let boardSize = 9;
 let hit = Math.floor(Math.random() * Math.floor(boardSize));
 
 const gameboard = document.getElementById('gameboard');
