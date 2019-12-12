@@ -6,6 +6,7 @@ body {
     background: linear-gradient(333deg, rgba(167,69,205,1) 7%, rgba(68,223,32,0.773546918767507) 55%, rgba(32,129,223,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a745cd",endColorstr="#2081df",GradientType=1);
     background-repeat: no-repeat;
+    font-family: 'Quantico', sans-serif;
 }
 
 #gameboard {
@@ -14,4 +15,8 @@ body {
     width: 500px;
     height: 500px;
     font-size: 118px;
+}
+
+#reset {
+    font-family: 'Quantico', sans-serif;
 }
