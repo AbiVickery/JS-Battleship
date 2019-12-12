@@ -16,3 +16,26 @@
 // button listener
 // reset gameboard and have AI choose new tile
 
+
+
+let boardSize = 9;
+let win = false;
+let hit = Math.floor(Math.random() * Math.floor(boardSize));
+
+const gameboard = document.getElementById('gameboard');
+for (let i = 0; i < boardSize; i++) {
+    const el = document.createElement('div');
+    el.setAttribute('data-id', i);
+    gameboard.appendChild(el);
+    el.addEventListener('click', checkTile);
+}
+
+function checkTile() {
+    let tile = this.getAttribute('data-idx');
+}
+
+function createGame() {
+    const gameboard = document.getElementById('gameboard');
+    gameboard.innerText = '';
+    
+}

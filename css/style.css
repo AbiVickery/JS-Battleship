@@ -1,3 +1,16 @@
 body {
-    text-align: center;
+    /* text-align: center; */
+    background: rgb(167,69,205);
+    background: -moz-linear-gradient(333deg, rgba(167,69,205,1) 7%, rgba(68,223,32,0.773546918767507) 55%, rgba(32,129,223,1) 100%);
+    background: -webkit-linear-gradient(333deg, rgba(167,69,205,1) 7%, rgba(68,223,32,0.773546918767507) 55%, rgba(32,129,223,1) 100%);
+    background: linear-gradient(333deg, rgba(167,69,205,1) 7%, rgba(68,223,32,0.773546918767507) 55%, rgba(32,129,223,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a745cd",endColorstr="#2081df",GradientType=1);
+}
+
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    font-size: 118px;
 }
