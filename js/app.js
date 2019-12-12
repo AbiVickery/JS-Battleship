@@ -30,12 +30,20 @@ for (let i = 0; i < boardSize; i++) {
     el.addEventListener('click', checkTile);
 }
 
-function checkTile() {
-    let tile = this.getAttribute('data-idx');
-}
+
 
 function createGame() {
+    let boardSize = 16;
+    hit = Math.floor(Math.random() * Math.floor(boardSize));
     const gameboard = document.getElementById('gameboard');
     gameboard.innerText = '';
-    
+    for (let i = 0; i < boardSize; i++) {
+        const el = document.createElement('div');
+        gameboard.appendChild(el);
+        el.addEventListener('click', checkTile);
+    }
+}
+
+function checkTile() {
+    let tile = this.getAttribute('data-idx');
 }
