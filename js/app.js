@@ -37,6 +37,11 @@ function createGame() {
     
 }
 
+function redo() {
+    document.getElementById('reset');
+    
+}
+
 
 
 // function checkTile() {
