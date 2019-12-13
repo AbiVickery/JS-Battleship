@@ -37,10 +37,10 @@ function createGame() {
     
 }
 
-function redo() {
-    document.getElementById('reset');
-    
-}
+// function redo() {
+//     document.getElementById('reset');
+
+// }
 
 
 
