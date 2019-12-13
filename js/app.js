@@ -43,6 +43,10 @@ function createGame() {
     }
 }
 
-function checkTile() {
-    let tile = this.getAttribute('data-idx');
-}
+createGame();
+
+// function checkTile() {
+//     let tile = this.getAttribute('data-idx');
+// }
+
+// checkTile();

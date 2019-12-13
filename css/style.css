@@ -12,11 +12,12 @@ body {
 #gameboard {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     font-size: 118px;
 }
 
+
+
 #reset {
-    font-family: 'Quantico', sans-serif;
-}
+    font-family: 'BenchNine', sans-serif;}
