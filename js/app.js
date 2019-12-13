@@ -23,29 +23,21 @@ let hit = Math.floor(Math.random() * Math.floor(boardSize));
 
 const gameboard = document.getElementById('gameboard');
 for (let i = 0; i < boardSize; i++) {
-    const el = document.createElement('div');
+    let el = document.createElement('div');
+    el.classList.add('box');
     el.setAttribute('data-id', i);
     gameboard.appendChild(el);
-    el.addEventListener('click', checkTile);
+    el.addEventListener('click', createGame);
 }
 
 
 
 function createGame() {
-    let boardSize = 16;
-    hit = Math.floor(Math.random() * Math.floor(boardSize));
-    const gameboard = document.getElementById('gameboard');
-    gameboard.innerText = '';
-    for (let i = 0; i < boardSize; i++) {
-        const el = document.createElement('div');
-        el.classList.add('box');
-        el.setAttribute('data-id', i);
-        gameboard.appendChild(el);
-        el.addEventListener('click', checkTile);
-    }
+    this.style.background ='pink';
+    
 }
 
-createGame();
+
 
 // function checkTile() {
 //     let tile = this.getAttribute('data-idx');
