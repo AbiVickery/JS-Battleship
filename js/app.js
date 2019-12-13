@@ -38,6 +38,8 @@ function createGame() {
     gameboard.innerText = '';
     for (let i = 0; i < boardSize; i++) {
         const el = document.createElement('div');
+        el.classList.add('box');
+        el.setAttribute('data-id', i);
         gameboard.appendChild(el);
         el.addEventListener('click', checkTile);
     }
