@@ -37,6 +37,8 @@
 // var audio = new Audio('Black light.m4a');
 // audio.addEventListener('click');
 
+alert('This page has some bugs that are currently being worked on! Expect not-so-good content up ahead!');
+
 let win = false;
 let boardSize = 9;
 let hit = Math.floor(Math.random() * Math.floor(boardSize));
@@ -65,9 +67,14 @@ function createGame() {
     
 }
 
-// document.getElementById('reset') {
-//     window.location.reload(false);
-// }
+function resetGame() {
+    document.getElementById('reset');
+    {
+        window.location.reload(false);
+    }
+}
+
+resetGame();
 
 // function resetGame() {
 //     window.location.reload(false)
