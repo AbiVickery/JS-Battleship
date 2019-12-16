@@ -37,7 +37,7 @@
 // var audio = new Audio('Black light.m4a');
 // audio.addEventListener('click');
 
-alert('This page has some bugs that are currently being worked on! Expect not-so-good content up ahead!');
+alert('This page is under construction! Sorry for the innconvenience...');
 
 let win = false;
 let boardSize = 9;
