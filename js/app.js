@@ -30,7 +30,15 @@ for (let i = 0; i < boardSize; i++) {
     el.addEventListener('click', createGame);
 }
 
-
+class Battleship {
+    constructor() {
+        this.win = false;
+        this.turn = false;
+        this.player1 = 0;
+        this.player2 = 0;
+        this.createGame();
+    }
+}
 
 function createGame() {
     this.style.background ='pink';
