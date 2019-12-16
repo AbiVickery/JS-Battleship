@@ -39,7 +39,7 @@
 
 // alert('This page is under construction! Sorry for the innconvenience...');
 
-debugger;
+// debugger;
 
 let win = false;
 let boardSize = 9;
