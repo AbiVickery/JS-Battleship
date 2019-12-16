@@ -16,20 +16,26 @@
 // button listener
 // reset gameboard and have AI choose new tile
 
-function sound(src) {
-    this.sound = document.createElement("audio");
-    this.sound.src = src;
-    this.sound.setAttribute("preload", "auto");
-    this.sound.setAttribute("controls", "none");
-    this.sound.style.display = "none";
-    document.body.appendChild(this.sound);
-    this.play = function(){
-      this.sound.play();
-    }
-    this.stop = function(){
-      this.sound.pause();
-    }
-  }
+// function sound(src) {
+//     this.sound = document.createElement("audio");
+//     this.sound.src = src;
+//     this.sound.setAttribute("preload", "auto");
+//     this.sound.setAttribute("controls", "none");
+//     this.sound.style.display = "none";
+//     document.body.appendChild(this.sound);
+//     this.play = function(){
+//       this.sound.play();
+//     }
+//     this.stop = function(){
+//       this.sound.pause();
+//     }
+//   }
+
+// var audio = new Audio('audio/tower_clock.ogg');
+// audio.play();
+
+// var audio = new Audio('Black light.m4a');
+// audio.addEventListener('click');
 
 let win = false;
 let boardSize = 9;
@@ -58,6 +64,14 @@ function createGame() {
     this.style.background ='pink';
     
 }
+
+// document.getElementById('reset') {
+//     window.location.reload(false);
+// }
+
+// function resetGame() {
+//     window.location.reload(false)
+// }
 
 // function redo() {
 //     document.getElementById('reset');
