@@ -37,7 +37,9 @@
 // var audio = new Audio('Black light.m4a');
 // audio.addEventListener('click');
 
-alert('This page is under construction! Sorry for the innconvenience...');
+// alert('This page is under construction! Sorry for the innconvenience...');
+
+debugger;
 
 let win = false;
 let boardSize = 9;
@@ -67,14 +69,14 @@ function createGame() {
     
 }
 
-function resetGame() {
-    document.getElementById('reset');
-    {
-        window.location.reload(false);
-    }
-}
+// function resetGame() {
+//     document.getElementById('reset');
+//     {
+//         window.location.reload(false);
+//     }
+// }
 
-resetGame();
+// resetGame();
 
 // function resetGame() {
 //     window.location.reload(false)
