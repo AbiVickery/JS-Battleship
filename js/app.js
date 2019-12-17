@@ -78,7 +78,7 @@ class AI {
 }
 
 function createGame() {
-    this.style.background ='pink';
+    this.style.background ='mediumpurple';
     
 }
 
