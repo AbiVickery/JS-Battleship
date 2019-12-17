@@ -64,6 +64,8 @@ class Battleship {
     }
 }
 
+// А@
+
 class AI {
     constructor() {
         constructor();
