@@ -64,6 +64,17 @@ class Battleship {
     }
 }
 
+class AI {
+    constructor() {
+        constructor();
+        {
+            this.win = true;
+            this.turn = true;
+            this.player = 1;
+        }
+    }
+}
+
 function createGame() {
     this.style.background ='pink';
     
