@@ -27,6 +27,13 @@ body {
     display: inline-block;
 }
 
+.hit {
+    background-color: darksalmon;
+}
+
+.miss {
+    background-color: mediumpurple;
+}
 
 #reset {
     font-family: 'BenchNine', sans-serif;}
