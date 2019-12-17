@@ -79,8 +79,8 @@ class AI {
 
 function createGame() {
     this.style.background ='mediumpurple';
-    this.style.hit = '';
-    this.style.miss = '';
+    this.style.hit = 'darksalmon';
+    this.style.miss = 'mediumpurple';
 }
 
 // function resetGame() {
