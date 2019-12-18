@@ -77,8 +77,10 @@ class AI {
     }
 }
 
-function checkTiles() {
-    this.hit = false;
+class checkTiles {
+    constructor() {
+        this.hit = false;
+    }
 }
 
 function createGame() {
