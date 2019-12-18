@@ -77,6 +77,10 @@ class AI {
     }
 }
 
+function checkTiles() {
+    this.hit = false;
+}
+
 function createGame() {
     this.style.background ='mediumpurple';
     this.style.hit = 'darksalmon';
